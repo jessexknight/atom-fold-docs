@@ -1,0 +1,5 @@
+{
+  "atom-workspace": {
+    "ctrl-cmd-d": "fold-docs:toggle"
+  }
+}
