@@ -50,7 +50,7 @@ module.exports =
       @toggle = true
 
       # define the RegExp
-      anymatch = '(:?.|\n)*?'
+      anymatch = '(.|\n)*?'
       re = new RegExp(atom.config.get('fold-docs.start') +
                       anymatch +
                       atom.config.get('fold-docs.end'),
